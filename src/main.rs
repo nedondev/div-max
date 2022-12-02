@@ -4,7 +4,7 @@ use num::bigint::BigUint;
 
 use clap::Parser;
 
-/// Simple program to greet a person
+/// Simple program to divide max uint 256 bit with input
 #[derive(Parser, Debug)]
 #[command(author, version, about, long_about = None)]
 struct Args {
