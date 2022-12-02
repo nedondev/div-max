@@ -1,0 +1,15 @@
+[package]
+name = "div_max"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+clap = { version = "4.0.29", features = ["derive"] }
+hex = "0.4.3"
+num = { version = "0.4.0", features = ["num-bigint"] }
+
+[profile.dev]
+opt-level = 0
+
+[profile.release]
+opt-level = 3
